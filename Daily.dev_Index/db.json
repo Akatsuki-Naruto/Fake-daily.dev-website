@@ -1,0 +1,9 @@
+{
+    "bài viết" : [
+     { "id" : 1 , "title" : " json-server " , "tác giả" : " typicode " }
+   ],
+   "bình luận" : [
+     { "id" : 1 , "body" : " vài bình luận " , "postId" : 1 }
+   ],
+   "hồ sơ" : { "tên" : " mã đánh máy " }
+ }
