@@ -4,7 +4,7 @@ font-family: var(--font-default);
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 color: var(--color-default);
-background-color: #120014;
+background-color: #46014e;
 }
 
 a {
@@ -22,17 +22,25 @@ text-decoration: none;
 -------------------------------------------------------------*/
 
 Header {
-    width: auto;
+    position: sticky;
+    width: 100%;
+    display: block;
     height: 40px;
     border: 2px;
     border-bottom-style: solid;
     border-color: #7c7c7c;
 }
 
+header ul{
+        position: fixed;
+        top: 0;
+        width: 100%;
+}
+
 .indexIcon {
     position: absolute;
     left: 40px;
-    margin: 10px 0px 10px 0px;
+    margin: 12px 0px 10px 0px;
     padding-left: 0px;
     color: white;
 }
@@ -69,18 +77,21 @@ Header {
 -------------------------------------------------------------*/
 
 /* ------------------------------------------------------------
-                    aside
+                    left contents 
 -------------------------------------------------------------*/
-aside {
+.contentLeftIndex {
     margin-top: 0px;
     position: absolute;
-    display: block; 
+    display: block;
+    top: 42px;
+    left: 0px;
     color: rgb(126, 119, 187);
-    height: 100%;
     border: 2px;
+    height: 100%;
     border-right-style: solid;
     border-color: #7c7c7c;
     padding-right: 15px;
+    overflow: auto;
 }
 
 .listDiscovery {
@@ -129,8 +140,52 @@ aside {
 
 .headerMain {
     color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.buttonChooseTag {
+    border-radius: 7px;
 }
 
 .headerTag {
     color: white;
+}
+
+
+#Tags {
+    width: auto;
+    height: auto;
+}
+
+#listTags {
+    flex-wrap:wrap;
+}
+
+.buttonTag {
+    font-size: large;
+    border-radius: 12px;
+    margin: 20px;
+    background-color: #4c4c4c;
+}
+
+.avatarTag {
+    position: static;
+    display:grid;
+    width: 30px;
+    height: 30px;
+    gap: 1rem;
+    border-radius: 50%;
+}
+
+.titleTag {
+    width: 200px;
+    height: 100px;
+    font-family: sans-serif;
+    color:white;
+}
+
+.imageTag {
+    width: 225px;
+    height: 150px;
 }
