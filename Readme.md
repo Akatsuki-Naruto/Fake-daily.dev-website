@@ -19,9 +19,7 @@
 
 
 ## How to activate.
-
-    - Use json-server create localhost: https://my-json-server.typicode.com/Akatsuki-Naruto/My-JSON-Server/Tag.
-    - Javascript call API by fetch (method: GET).
+    - Javascript call API by fetch (method: GET) from https://my-json-server.typicode.com/Akatsuki-Naruto/My-JSON-Server/Tag.
     - Method GET give a request data to Json-server.
     - server return a json-file.
     - Method GET analysis to html output.
