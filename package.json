@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "aos": "^2.3.4",
-    "react-ajax": "^0.1.1"
+    "react-ajax": "^0.1.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "json-server": "^0.17.3"
