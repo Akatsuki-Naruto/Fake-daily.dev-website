@@ -9,6 +9,7 @@
 
 # API
     - Deploy API (https://my-json-server.typicode.com/)
+    - Link to call API (https://my-json-server.typicode.com/Akatsuki-Naruto/My-JSON-Server/Tag)
 
 # Source code
     - Deploy html (https://www.infinityfree.com/)
