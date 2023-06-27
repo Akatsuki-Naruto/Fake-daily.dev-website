@@ -18,7 +18,7 @@
 
 
 
-How to activate.
+## How to activate.
 
     - Use json-server create localhost: https://my-json-server.typicode.com/Akatsuki-Naruto/My-JSON-Server/Tag.
     - Javascript call API by fetch (method: GET).
